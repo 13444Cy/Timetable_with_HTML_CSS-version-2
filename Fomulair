@@ -36,7 +36,7 @@
     let teachername = document.querySelector('.teacher');
     const url = new URLSearchParams(window.location.search);
     const name = url.get('name');
-    teachername.textContent = `Teacher name: ${name}` || 'Teacher name';
+    teachername.textContent = `professeur: ${name}` || 'professeur: Inconnu';
   </script>
 </body>
 </html>
