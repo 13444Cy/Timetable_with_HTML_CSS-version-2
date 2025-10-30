@@ -29,7 +29,7 @@
       <textarea id="question" placeholder="Question"></textarea>
     <br><br>
     <input type="submit" value="Envoyer">
-
+    <input type="reset" value="Cancel">
   </form>
   <script>
     // Dynamic teacher name from other pages
